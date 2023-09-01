@@ -1,0 +1,23 @@
+{
+  "name": "mvc-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": "https://github.com/henrique1501/mvc-mongodb.git",
+  "author": "henrique moraes <vicsam7716@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.48.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.22.0",
+    "mongodb": "^6.0.0",
+    "zod": "^3.22.2"
+  }
+}
